@@ -1,0 +1,322 @@
+body {
+	  text-align: center;
+}
+#wrapper {
+	  text-align: left;
+	  width: 100%;
+	  /*margin-left: auto;
+	  margin-right: auto;  */
+}
+
+h2 {
+	text-align: center;
+	margin-left:440px;
+	color:#333;	
+}
+
+.load_button {
+	width: 60px;
+	background-color:#CCC;	
+	margin-left:50px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+}
+
+.save_button {
+	width: 60px;
+	background-color:#CCC;	
+	margin-left:140px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+}
+
+#options{
+	width: 30%;
+	height:600px;
+	border:1px solid black;
+	border-right:0px solid black;
+	float:left;
+	background-color:#FFF;
+	margin-left:30px;
+}
+
+#frame{
+	width:60%;
+	height:600px;
+	background-repeat: repeat-y;
+    	background-position: 0 0;
+    	border:1px solid black;
+    	float:right;
+		margin-right:30px;
+		background-color:#F3F3F3;
+		float:left;
+}
+
+#drag1 {
+	margin-left:20px;
+	margin-top:20px;
+	background-image: url(square.svg);
+	width:100px;
+	height:100px;
+	border:1px solid #666;
+}
+
+#drag2 {
+	margin-left:20px;
+	margin-top:20px;
+	background-image: url(empty-circle.svg);
+	width:100px;
+	height:100px; 
+}
+
+#drag3 {
+	margin-left:20px;
+	margin-top:20px;
+	background-image:  url(line.svg);
+	width:200px;
+	height:20px;
+}
+
+#drag4 {
+	margin-left:20px;
+	margin-top:20px;
+	background-image:  url(chair.svg);
+	width:100px;
+	height:40px;
+}
+
+#drag5 {
+	margin-left:20px;
+	margin-top:20px;
+	background-image: url(Rectangle.svg);
+	width:200px;
+	height:100px;
+	border:1px solid #666;
+}
+
+.ui-draggable-helperMoving {
+	border: 1px dotted #000;
+	padding: 6px;
+	background: #fff;
+	font-size: 1.2em;
+	width:100px;
+	height:100px;
+}
+
+.ui-draggable-helperStoped {
+	border: 1px solid #000;
+	width:5px;
+	height:5px;
+}
+
+
+
+/* classes for dragged stuff */
+.dropped1 {
+	position:absolute; 
+	background-image: url(square.svg);
+	width:100px;
+	height:100px;
+	text-align:center;
+	border:1px solid #666;
+}
+
+.dropped2 {
+	position:absolute; 
+	background-image: url(empty-circle.svg);
+	width:100px;
+	height:100px;
+	text-align:center;
+}
+
+.dropped3 {
+	position:absolute; 
+	background-image: url(line.svg);
+	width:200px;
+	height:20px;
+}
+
+.dropped4 {
+	position:absolute; 
+	background-image: url(chair.svg);
+	width:100px;
+	height:100px;
+}
+
+.dropped5 {
+	position:absolute; 
+	background-image: url(Rectangle.svg);
+	width:200px;
+	height:100px;
+	border:1px solid #666;
+}
+
+#element{
+	border:1px solid red;  
+}
+
+.labeling {
+	background-color:#3C0;
+	
+}
+
+#top_chair_left {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: -20px;
+	margin-bottom: 5px;
+	padding-left:10px;
+	padding-right:15px;
+}
+
+#top_chair_square {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: -20px;
+	margin-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#bottom_chair_square {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+#left_chair_square {
+	float:left;
+	height:50px;
+	width:20px;
+	margin-top:20px;
+	margin-left: -25px;
+	padding-left:5px;
+	padding-right:5px;
+}
+#right_chair_square {
+	float:right;
+	height:50px;
+	width:20px;
+	margin-top:20px;
+	margin-left: 25px;
+	margin-right: -30px;
+	padding-left:5px;
+	padding-right:5px;
+}
+#top_chair_circle {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: -20px;
+	margin-bottom: 0px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#bottom_chair_circle {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+#left_chair_circle {
+	float:left;
+	height:50px;
+	width:20px;
+	margin-top:25px;
+	margin-left: -25px;
+	padding-left:5px;
+	padding-right:5px;
+}
+#right_chair_circle {
+	float:right;
+	height:50px;
+	width:20px;
+	margin-top:25px;
+	margin-left: 15px;
+	margin-right: -30px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#top1_chair_rect {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: -20px;
+	margin-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#top2_chair_rect {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: -20px;
+	margin-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#bottom1_chair_rect {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+#bottom2_chair_rect {
+	float:left;
+	height:20px;
+	width:50px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+#frame  div[id^='clonediv'] .ui-selecting 
+	{background: #FECA40;}
+	
+#frame  div[id^='clonediv']  .ui-selected {background: #F39814; color: white;}
+
+.delete_button {
+	width: 80px;
+	background-color:#CCC;	
+	margin-top:20px;
+	margin-left:80px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	
+}
+
+#section1 {
+	width:350px;
+	height:50px;
+}
+.enter_table {
+	float:left;
+	width:60px;
+	margin-top:20px;
+	margin-left:20px;
+	
+}
+#table_selected {
+	float:left;
+	width:50px;
+	margin-left:20px;
+}
+.delete_button{
+	float:left;
+	width:80px;
+}
